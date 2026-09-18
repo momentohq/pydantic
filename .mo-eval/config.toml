@@ -1,0 +1,7 @@
+language = "python"
+test_command = "python -m pytest tests"
+repo = "pydantic/pydantic"   # this is a fork; its merged pull requests are upstream's
+worker_image = "python:3.13-bookworm@sha256:933b46a028fd786c9c3d426ebabc237e29a15912231ea8de576e95f0e4f41a4c"
+# `pydantic-core` installs from a published wheel rather than compiling, so no Rust toolchain is
+# needed in the worker. `--group dev` carries pytest and the test-only dependencies.
+setup_command = "python -m pip install --disable-pip-version-check -e . --group dev"
