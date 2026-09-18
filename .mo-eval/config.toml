@@ -19,3 +19,23 @@ worker_image = "python:3.13-bookworm@sha256:933b46a028fd786c9c3d426ebabc237e29a1
 # tasks survived — the repository reads as unfit because one module in a vendored subtree was missing
 # (#3993).
 setup_command = "python -m pip install --disable-pip-version-check -e .[email,timezone] --group dev"
+
+# Vendored so a worker can install with no network at all. The contract sets PIP_NO_INDEX=1 and
+# PIP_FIND_LINKS=.mo-eval-wheels for the worker, so the wheels go there; this is the command that
+# puts them there, and it MIRRORS `setup_command` — same extras, same group — because anything the
+# install asks for and this did not fetch is a failure in the worker rather than here.
+#
+# The second line is the build backend, which `pip wheel` does not vendor for you: it writes wheels
+# for the dependency set and nothing for `[build-system] requires`. Ours is hatchling, not
+# setuptools. `editables` is the one that is easy to miss — hatchling pulls it in only for an
+# EDITABLE build, so it appears in neither the dependency set nor `[build-system] requires`, and
+# without it the offline install fails at `No matching distribution found for editables~=0.3`,
+# reported as a subprocess error that never names vendoring.
+#
+# Measured in this repository's own worker image, `docker run --network none`: vendor with a
+# network, then install and run `tests/test_types.py` with none — 281 passed, 3 skipped, 1 xfailed.
+offline_prepare = """
+  python -m pip wheel --wheel-dir .mo-eval-wheels '.[email,timezone]' --group dev &&
+  python -m pip wheel --wheel-dir .mo-eval-wheels hatchling hatch-fancy-pypi-readme editables
+"""
+offline_artifacts = [".mo-eval-wheels"]
