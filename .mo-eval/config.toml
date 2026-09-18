@@ -1,5 +1,10 @@
 language = "python"
-test_command = "python -m pytest tests --ignore=tests/pydantic_core"
+# NO PATH HERE. The order appends the exact test file, and a directory named alongside it makes
+# pytest collect that directory TOO — which re-collects the vendored `tests/pydantic_core/` tree whose
+# conftest cannot import, fails collection, and rejects every task. `test_command` is a base the
+# order supplies arguments to, as the README says; naming `tests` silently defeats the per-file
+# scoping that exists to prevent exactly this.
+test_command = "python -m pytest"
 repo = "pydantic/pydantic"   # this is a fork; its merged pull requests are upstream's
 worker_image = "python:3.13-bookworm@sha256:933b46a028fd786c9c3d426ebabc237e29a15912231ea8de576e95f0e4f41a4c"
 # `pydantic-core` installs from a published wheel rather than compiling, so no Rust toolchain is
