@@ -1,22 +1,12 @@
 maintainers:
-- login: adriangb
-  answers: 42
-  prs: 199
-  avatarUrl: https://avatars.githubusercontent.com/u/1755071?u=612704256e38d6ac9cbed24f10e4b6ac2da74ecb&v=4
-  url: https://github.com/adriangb
 - login: alexmojaki
   answers: 0
   prs: 18
   avatarUrl: https://avatars.githubusercontent.com/u/3627481?u=9bb2e0cf1c5ef3d0609d2e639a135b7b4ca8b463&v=4
   url: https://github.com/alexmojaki
-- login: dmontagu
-  answers: 55
-  prs: 316
-  avatarUrl: https://avatars.githubusercontent.com/u/35119617?u=540f30c937a6450812628b9592a1dfe91bbe148e&v=4
-  url: https://github.com/dmontagu
 - login: Viicos
-  answers: 234
-  prs: 531
+  answers: 239
+  prs: 641
   avatarUrl: https://avatars.githubusercontent.com/u/65306057?u=fcd677dc1b9bef12aa103613e5ccb3f8ce305af9&v=4
   url: https://github.com/Viicos
 - login: hramezani
@@ -24,14 +14,9 @@ maintainers:
   prs: 199
   avatarUrl: https://avatars.githubusercontent.com/u/3122442?u=f387fc2dbc0c681f23e80e2ad705790fafcec9a2&v=4
   url: https://github.com/hramezani
-- login: Kludex
-  answers: 23
-  prs: 112
-  avatarUrl: https://avatars.githubusercontent.com/u/7353520?u=df8a3f06ba8f55ae1967a3e2d5ed882903a4e330&v=4
-  url: https://github.com/Kludex
 - login: davidhewitt
   answers: 2
-  prs: 94
+  prs: 99
   avatarUrl: https://avatars.githubusercontent.com/u/1939362?u=b4b48981c3a097daaad16c4c5417aa7a3e5e32d9&v=4
   url: https://github.com/davidhewitt
 - login: samuelcolvin
@@ -39,13 +24,28 @@ maintainers:
   prs: 408
   avatarUrl: https://avatars.githubusercontent.com/u/4039449?u=42eb3b833047c8c4b4f647a031eaef148c16d93f&v=4
   url: https://github.com/samuelcolvin
+- login: adriangb
+  answers: 42
+  prs: 199
+  avatarUrl: https://avatars.githubusercontent.com/u/1755071?u=612704256e38d6ac9cbed24f10e4b6ac2da74ecb&v=4
+  url: https://github.com/adriangb
+- login: Kludex
+  answers: 23
+  prs: 112
+  avatarUrl: https://avatars.githubusercontent.com/u/7353520?u=df8a3f06ba8f55ae1967a3e2d5ed882903a4e330&v=4
+  url: https://github.com/Kludex
+- login: dmontagu
+  answers: 55
+  prs: 321
+  avatarUrl: https://avatars.githubusercontent.com/u/35119617?u=540f30c937a6450812628b9592a1dfe91bbe148e&v=4
+  url: https://github.com/dmontagu
 experts:
 - login: samuelcolvin
   count: 296
   avatarUrl: https://avatars.githubusercontent.com/u/4039449?u=42eb3b833047c8c4b4f647a031eaef148c16d93f&v=4
   url: https://github.com/samuelcolvin
 - login: Viicos
-  count: 234
+  count: 239
   avatarUrl: https://avatars.githubusercontent.com/u/65306057?u=fcd677dc1b9bef12aa103613e5ccb3f8ce305af9&v=4
   url: https://github.com/Viicos
 - login: PrettyWood
@@ -103,7 +103,7 @@ experts:
 last_month_active: []
 top_contributors:
 - login: Viicos
-  count: 531
+  count: 641
   avatarUrl: https://avatars.githubusercontent.com/u/65306057?u=fcd677dc1b9bef12aa103613e5ccb3f8ce305af9&v=4
   url: https://github.com/Viicos
 - login: samuelcolvin
@@ -115,7 +115,7 @@ top_contributors:
   avatarUrl: https://avatars.githubusercontent.com/u/54324534?u=acc3756515d6f87acc91e36a4478557cba9d9dac&v=4
   url: https://github.com/sydney-runkle
 - login: dmontagu
-  count: 316
+  count: 321
   avatarUrl: https://avatars.githubusercontent.com/u/35119617?u=540f30c937a6450812628b9592a1dfe91bbe148e&v=4
   url: https://github.com/dmontagu
 - login: adriangb
@@ -135,7 +135,7 @@ top_contributors:
   avatarUrl: https://avatars.githubusercontent.com/u/7353520?u=df8a3f06ba8f55ae1967a3e2d5ed882903a4e330&v=4
   url: https://github.com/Kludex
 - login: davidhewitt
-  count: 94
+  count: 99
   avatarUrl: https://avatars.githubusercontent.com/u/1939362?u=b4b48981c3a097daaad16c4c5417aa7a3e5e32d9&v=4
   url: https://github.com/davidhewitt
 - login: tpdorsey
@@ -200,11 +200,11 @@ top_contributors:
   url: https://github.com/koxudaxi
 - login: aminalaee
   count: 8
-  avatarUrl: https://avatars.githubusercontent.com/u/19784933?v=4
+  avatarUrl: https://avatars.githubusercontent.com/u/19784933?u=72cb1b31cd320ff96a343dae0960e7a5222affac&v=4
   url: https://github.com/aminalaee
 - login: NeevCohen
   count: 8
-  avatarUrl: https://avatars.githubusercontent.com/u/70970900?u=573a3175906348e0d1529104d56b391e93ca0250&v=4
+  avatarUrl: https://avatars.githubusercontent.com/u/70970900?u=d43cf20aca857f8d694a7cf2eee723cd65c1e059&v=4
   url: https://github.com/NeevCohen
 - login: layday
   count: 7
@@ -218,6 +218,10 @@ top_contributors:
   count: 7
   avatarUrl: https://avatars.githubusercontent.com/u/1609449?u=922abf0524b47739b37095e553c99488814b05db&v=4
   url: https://github.com/tlambert03
+- login: strawgate
+  count: 7
+  avatarUrl: https://avatars.githubusercontent.com/u/6384545?u=474d8016b8b97924e49dea59a62dd105f7f9dcf3&v=4
+  url: https://github.com/strawgate
 - login: dgasmith
   count: 6
   avatarUrl: https://avatars.githubusercontent.com/u/1769841?u=44e83d7974f0ab5c431340f1669d98f781594980&v=4
@@ -238,6 +242,10 @@ top_contributors:
   count: 6
   avatarUrl: https://avatars.githubusercontent.com/u/159434?u=45706bfe14e7ff6afceb81b01f8316efa808ee65&v=4
   url: https://github.com/DouweM
+- login: Kropiunig
+  count: 6
+  avatarUrl: https://avatars.githubusercontent.com/u/48442031?u=5e7679a5363aafe31e507b8eca52466d773c68dc&v=4
+  url: https://github.com/Kropiunig
 - login: nuno-andre
   count: 5
   avatarUrl: https://avatars.githubusercontent.com/u/6339494?u=893876f31ce65fa8ad8cfcc592392a77f0f8af38&v=4
@@ -282,33 +290,25 @@ top_contributors:
   count: 4
   avatarUrl: https://avatars.githubusercontent.com/u/10811879?v=4
   url: https://github.com/JeanArhancet
-- login: commonism
-  count: 4
-  avatarUrl: https://avatars.githubusercontent.com/u/164513?v=4
-  url: https://github.com/commonism
-- login: MarkusSintonen
-  count: 4
-  avatarUrl: https://avatars.githubusercontent.com/u/12939780?v=4
-  url: https://github.com/MarkusSintonen
 top_reviewers:
 - login: samuelcolvin
-  count: 706
+  count: 707
   avatarUrl: https://avatars.githubusercontent.com/u/4039449?u=42eb3b833047c8c4b4f647a031eaef148c16d93f&v=4
   url: https://github.com/samuelcolvin
+- login: Viicos
+  count: 693
+  avatarUrl: https://avatars.githubusercontent.com/u/65306057?u=fcd677dc1b9bef12aa103613e5ccb3f8ce305af9&v=4
+  url: https://github.com/Viicos
 - login: sydney-runkle
   count: 691
   avatarUrl: https://avatars.githubusercontent.com/u/54324534?u=acc3756515d6f87acc91e36a4478557cba9d9dac&v=4
   url: https://github.com/sydney-runkle
-- login: Viicos
-  count: 622
-  avatarUrl: https://avatars.githubusercontent.com/u/65306057?u=fcd677dc1b9bef12aa103613e5ccb3f8ce305af9&v=4
-  url: https://github.com/Viicos
 - login: hramezani
   count: 540
   avatarUrl: https://avatars.githubusercontent.com/u/3122442?u=f387fc2dbc0c681f23e80e2ad705790fafcec9a2&v=4
   url: https://github.com/hramezani
 - login: dmontagu
-  count: 532
+  count: 535
   avatarUrl: https://avatars.githubusercontent.com/u/35119617?u=540f30c937a6450812628b9592a1dfe91bbe148e&v=4
   url: https://github.com/dmontagu
 - login: adriangb
@@ -316,7 +316,7 @@ top_reviewers:
   avatarUrl: https://avatars.githubusercontent.com/u/1755071?u=612704256e38d6ac9cbed24f10e4b6ac2da74ecb&v=4
   url: https://github.com/adriangb
 - login: davidhewitt
-  count: 291
+  count: 317
   avatarUrl: https://avatars.githubusercontent.com/u/1939362?u=b4b48981c3a097daaad16c4c5417aa7a3e5e32d9&v=4
   url: https://github.com/davidhewitt
 - login: Kludex
@@ -347,8 +347,16 @@ top_reviewers:
   count: 43
   avatarUrl: https://avatars.githubusercontent.com/u/159434?u=45706bfe14e7ff6afceb81b01f8316efa808ee65&v=4
   url: https://github.com/DouweM
+- login: macroscopeapp
+  count: 39
+  avatarUrl: https://avatars.githubusercontent.com/in/900172?v=4
+  url: https://github.com/apps/macroscopeapp
+- login: copilot-pull-request-reviewer
+  count: 36
+  avatarUrl: https://avatars.githubusercontent.com/in/946600?v=4
+  url: https://github.com/apps/copilot-pull-request-reviewer
 - login: alexmojaki
-  count: 33
+  count: 34
   avatarUrl: https://avatars.githubusercontent.com/u/3627481?u=9bb2e0cf1c5ef3d0609d2e639a135b7b4ca8b463&v=4
   url: https://github.com/alexmojaki
 - login: Bobronium
@@ -375,6 +383,10 @@ top_reviewers:
   count: 16
   avatarUrl: https://avatars.githubusercontent.com/u/12939780?v=4
   url: https://github.com/MarkusSintonen
+- login: veria-ai
+  count: 16
+  avatarUrl: https://avatars.githubusercontent.com/in/1723776?v=4
+  url: https://github.com/apps/veria-ai
 - login: ybressler
   count: 15
   avatarUrl: https://avatars.githubusercontent.com/u/40807730?u=fa12d64259ccf9eca18847102335ee6408cb9eaa&v=4
@@ -383,10 +395,6 @@ top_reviewers:
   count: 11
   avatarUrl: https://avatars.githubusercontent.com/u/32038156?u=c26ca9b821fcf6499b84db75f553d4980bf8d023&v=4
   url: https://github.com/uriyyo
-- login: copilot-pull-request-reviewer
-  count: 11
-  avatarUrl: https://avatars.githubusercontent.com/in/946600?v=4
-  url: https://github.com/apps/copilot-pull-request-reviewer
 - login: koxudaxi
   count: 10
   avatarUrl: https://avatars.githubusercontent.com/u/630670?u=507d8577b4b3670546b449c4c2ccbc5af40d72f7&v=4
@@ -411,6 +419,14 @@ top_reviewers:
   count: 7
   avatarUrl: https://avatars.githubusercontent.com/u/89458301?u=75f53e971fcba3ff61836c389505a420bddd865c&v=4
   url: https://github.com/kc0506
+- login: Shriprasad-P
+  count: 7
+  avatarUrl: https://avatars.githubusercontent.com/u/157346384?u=d3f81b4a1e5a848a8fcc530fc323832bc052c6b2&v=4
+  url: https://github.com/Shriprasad-P
+- login: Sanjays2402
+  count: 7
+  avatarUrl: https://avatars.githubusercontent.com/u/51058514?u=e7c046e3db8612d68a8a97bc7d9764fad0b8fbbf&v=4
+  url: https://github.com/Sanjays2402
 - login: pilosus
   count: 6
   avatarUrl: https://avatars.githubusercontent.com/u/6400248?u=88cadd1dd6376e7000934e93712c5eb0138c1616&v=4
@@ -475,15 +491,3 @@ top_reviewers:
   count: 4
   avatarUrl: https://avatars.githubusercontent.com/u/57028336?u=387c51980cb3734c41543ae2276a23736906bdb9&v=4
   url: https://github.com/DetachHead
-- login: JensHeinrich
-  count: 4
-  avatarUrl: https://avatars.githubusercontent.com/u/59469646?u=86d6a20768cc4cc65622eafd86672147321bd8f8&v=4
-  url: https://github.com/JensHeinrich
-- login: cclauss
-  count: 4
-  avatarUrl: https://avatars.githubusercontent.com/u/3709715?u=0745d1d2473894c33f3b35f0b965d71cc9aec553&v=4
-  url: https://github.com/cclauss
-- login: CloseChoice
-  count: 4
-  avatarUrl: https://avatars.githubusercontent.com/u/31857876?v=4
-  url: https://github.com/CloseChoice
